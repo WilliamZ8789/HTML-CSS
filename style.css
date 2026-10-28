@@ -1,8 +1,8 @@
 html,
 body,
 * {
-    font: x-large;
-    font-size: 10px;
+    /* font: x-large; */
+    font-size: 15px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -18,7 +18,16 @@ div {
     margin: 0.5rem;
     padding: 1rem;
 }
-.card {
+h1 {font-size: 2.5rem; color: #ffffff;}
+h2 {font-size: 1.5rem; color: #ffffff;}
+h3 {font-size: 1.5rem; color: #ffffff;}
+h4 {font-size: 1.5rem; color: #ffffff;}
+h5 {font-size: 1.5rem; color: #ffffff;}
+h6 {font-size: 1.5rem; color: #ffffff;}
+li {font-size: 1rem; color: #ffffff;}
+p {font-size: 1rem; color: #ffffff;}
+
+/* .card {
     background-color: #111111;
     width: 30rem;
     height: 55rem;
@@ -50,4 +59,4 @@ div {
 }
 .btn:hover {
     background-color: #7573ff;
-}
+} */
