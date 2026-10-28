@@ -3,6 +3,7 @@ body,
 * {
     /* font: x-large; */
     font-size: 15px;
+    color: #ffffff;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -18,14 +19,42 @@ div {
     margin: 0.5rem;
     padding: 1rem;
 }
-h1 {font-size: 2.5rem; color: #ffffff;}
-h2 {font-size: 1.5rem; color: #ffffff;}
-h3 {font-size: 1.5rem; color: #ffffff;}
-h4 {font-size: 1.5rem; color: #ffffff;}
-h5 {font-size: 1.5rem; color: #ffffff;}
-h6 {font-size: 1.5rem; color: #ffffff;}
-li {font-size: 1rem; color: #ffffff;}
-p {font-size: 1rem; color: #ffffff;}
+.hero {
+    background-image:
+    linear-gradient(rgba(8, 84, 130, 0.6), rgba(4, 70, 115, 0.8))
+    url("https://ggservers.com/knowledgebase/wp-content/uploads/2025/04/image-116.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #ffffff;
+}
+.hero h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    text-shadow: 0.2px 9px rgba(0, 0, 0, 0.4)
+}
+.hero p {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    text-shadow: 0.2px 9px rgba(0, 0, 0, 0.4)
+}
+.btn {
+    display: inline-block;
+    padding: 1.4 rem 3.2rem;
+    font-size: 2rem;
+    color: white;
+    background-color: blue;
+    text-decoration: none;    
+}
+h1 {font-size: 2.5rem;}
+h2 {font-size: 1.5rem;}
+h3 {font-size: 1.5rem;}
+h4 {font-size: 1.5rem;}
+h5 {font-size: 1.5rem;}
+h6 {font-size: 1.5rem;}
+li {font-size: 1rem;}
+p {font-size: 1rem;}
 
 /* .card {
     background-color: #111111;
@@ -50,7 +79,7 @@ p {font-size: 1rem; color: #ffffff;}
     height: 4rem;
     padding: 0 1.6rem;
     background-color: #605dff;
-    color: #ffffff;
+   
     border: 1px solid #5250e0;
     border-radius: 0.4rem;
     font-weight: 600px;
