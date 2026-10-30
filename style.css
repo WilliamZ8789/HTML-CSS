@@ -21,8 +21,8 @@ div {
 }
 .hero {
     background-image:
-    linear-gradient(rgba(8, 84, 130, 0.6), rgba(4, 70, 115, 0.8))
-    url("https://ggservers.com/knowledgebase/wp-content/uploads/2025/04/image-116.png");
+        linear-gradient(rgba(8, 84, 130, 0.6), rgba(4, 70, 115, 0.8))
+        url("image/china-southern-airbus-a350-airbus.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
